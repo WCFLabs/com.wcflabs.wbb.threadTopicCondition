@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.wcflabs.wbb.threadTopicCondition" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
+	<packageinformation>
+		<packagename>Thread Bulk Processing: Thread Topic</packagename>
+		<packagedescription>Adds the condition "Topic" in the Thread Bulk Processing</packagedescription>
+		<packagedescription language="de">Fügt die Bedingung „Themen-Titel“ in das Formular für die Massenverarbeitung von Themen hinzu.</packagedescription>
+		<version>1.0.0</version>
+		<date>2019-11-04</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Joshua Rüsweg</author>
+		<authorurl>https://www.wcflabs.com</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.11">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.1.11">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<compatibility>
+		<api version="2018" />
+	</compatibility>
+	
+	<instructions type="install">
+		<instruction type="file" application="wbb" />
+		<instruction type="objectType" />
+		<instruction type="language" />
+	</instructions>
+</package>

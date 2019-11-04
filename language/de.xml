@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wbb.thread">
+		<item name="wbb.thread.condition.topic"><![CDATA[Themen-Titel]]></item>
+		<item name="wbb.thread.condition.topic.description"><![CDATA[Nur Themen, die <strong>exakt</strong> den angegebenen Themen-Titel haben werden ausgewählt. <kbd>%</kbd> kann hierbei als Platzhalter genutzt werden. <kbd>%Test%</kbd> findet also beispielsweise alle Themen, dessen Titel das Wort Test enthält.]]></item>
+	</category>
+</language>
